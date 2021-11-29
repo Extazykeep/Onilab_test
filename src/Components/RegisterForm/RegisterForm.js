@@ -13,6 +13,8 @@ export default function RegisterForm({loginHanlder}) {
   const history = useHistory()
   const auth = useAuth()
 
+  //should actually encrypt password before send it into base and decrypt after taking 
+  // but dont know if its allowed in this project
   const submitHandler = (e) => {
     e.preventDefault()
     if(checkifExists(name.value,email.value)) {
