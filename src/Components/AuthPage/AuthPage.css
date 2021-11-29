@@ -1,0 +1,14 @@
+.auth-page {
+  margin-top: 20%;
+}
+.auth-page h1 {
+  font-size: 44px;
+  margin-bottom: 8px;
+}
+.auth-welcome {
+  font-size: 26px;
+}
+.auth-welcome a{
+  font-weight: bold;
+  color: #000;
+}
